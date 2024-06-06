@@ -1,67 +1,51 @@
-// // Q11
-let friendName=["iqra", "saba","sana"]
-console.log(friendName[0])
-console.log(friendName[1])
-console.log(friendName[2])
+// Q1 
 
-// // Q12
+// Installation completed
 
-let friendName=["iqra", "saba","sana"]
-let message="how are you"
- console.log("Hello",friendName[0],message)
- console.log("Hello",friendName[1],message)
- console.log("Hello",friendName[2],message)
+// Q2
 
-Q13
-let transpotation : string [] = ["Honda Motorcycle","Audi","Honda City"];
-transpotation.map ((items) => console.log(`I would like to own a ${items}`));
+let personName="iqra";
+console.log('hello' ,personName,"would you like to learn some python today");//
 
-Q14
-let guestArr : string [] = ["Ali","Saba","Sana"];
-guestArr.map ((items) =>(console.log(`Dear ${items} , Yor are invited to the dinner`)));
+// Q3
+let personName="iqra";
+console.log(personName.toLowerCase());
+console.log(personName.toUpperCase());
+console.log(personName.charAt(0).toUpperCase() + personName.slice(1).toLowerCase());
 
-// // // Q15
-let guestArr : string[] = ["Ali","Saba","Sana","Dua"];
-let canNotAttend : String = "Ali"
+// Q4
+console.log("Audrey hypburn once said",'"word impossible itself says I AM possible"');
 
-console.log(canNotAttend + "" "can not attend the dinner.")
+// Q5
+let famousePerson="Audrey Hypburn";
+let message= "once said,'Word impossible itself says I AM possible'";
+console.log(famousePerson,message);
 
-let newGuest : string = "alishba"
+// Q6
+ let whiteSpace="\n\t Iqra Waqas\t\n";
+ console.log(whiteSpace);
+let withoutwihteSpace=whiteSpace.trim();
+console.log(withoutwihteSpace);
 
-guestArr [guestArr.indexOf(canNotAttend)] = newGuest
+// Q7,Q8
+ console.log(4+4);
+ console.log(10-2);
+ console.log(2*4);
+ console.log(16/2);
 
-// console.log(guestArr)
+// Q9
+let favouriteNumber=8
+console.log("My favourite number is", favouriteNumber);
 
-guestArr.map((items) => console.log (`Dear ${items} , you are invited to the dinner.`))
+// Q10
+author:[Iqra waqas]
+Date:[friday,28sep,2024]
 
-// // Q16
-  let guestArr : string[] = ["Ali","Saba","Sana","Dua"];
+// Q9 printing my favourite number:
+let favouriteNumber = 8;
+// reveling my favourite number in a message formate.
+console.log("My favourite number is", favouriteNumber);
 
-  let canNotAttend : string = "Saba"
 
-  let newGuest : string ="Hamza"
-  guestArr[guestArr.indexOf(canNotAttend)] = newGuest;
- console.log(guestArr)
 
- guestArr.map((items) =>
-console.log(`Dear ${items}, I found a bigger dinner table so I am invited more people.`));
- 
- let guestbeg : string = "laiba"
- guestArr.unshift(guestbeg);
- console.log(guestArr)
 
- let middleGuest : string ="Fatima"
- let middleIndex = guestArr.length/3
- guestArr.splice(middleIndex,0,middleGuest)
- console.log(guestArr)
-
-guestArr.push("iqra")
-console.log(guestArr)
-
-guestArr.map((items) =>
-console.log(`Dear ${items}, you are invited in the more people list on dinner`))
-
-// Q17
-
-let guestArr: string[] = ["Ali","Bilal","Hamza","Fazal","Hammad"];
-console.log("Due to limited space,only two pople can be invited for dinner.");
